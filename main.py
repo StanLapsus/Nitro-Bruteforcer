@@ -84,7 +84,7 @@ async def find_nitro_plan(session, token):
             if not subscription_plans:
                 continue
             for plan in subscription_plans:
-                if plan['price']['currency'] == 'USD' and plan['price']['amount'] == 999:  # Adjust the price amount as needed
+                if plan['price']['currency'] == 'USD' and plan['price']['amount'] == 9.99:
                     return plan['id'], plan['price']['amount'], plan['price']['currency'], plan['purchase_token']
     
     logging.error("No matching Nitro plan found.")
