@@ -6,7 +6,7 @@ It bruteforces a certain Nitro subscription in discord with appropriate credenti
 # Features
 
 1. **Generate Mastercard Details**:
-   - Creates random 16-digit Mastercard numbers.
+   - Creates random 16-digit Mastercard numbers using luhn algorithm.
    - Includes 3-digit CVV codes.
    - Provides expiry dates in MM/YY format.
 
